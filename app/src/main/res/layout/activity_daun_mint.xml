@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Konten Halaman di dalam ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="24dp"
+                android:elevation="6dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/mint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Mint"
+                        android:textColor="#388E3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <!-- Deskripsi Daun Mint -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Judul Deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Daun Mint"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/poppins_bold" />
+
+                    <!-- Isi Deskripsi -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daun mint (Mentha) merupakan tanaman herbal yang sering digunakan dalam masakan dan pengobatan tradisional. Daun ini dikenal karena aromanya yang segar dan kandungan senyawa mentol (zat yang memberikan sensasi dingin pada kulit) yang bermanfaat bagi kesehatan dan kecantikan, seperti menyegarkan napas, menenangkan kulit, serta meredakan peradangan ringan."
+                        android:textColor="#2E4438"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Judul Ciri-ciri -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ciri-ciri Daun Mint:"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <!-- Isi Ciri-ciri -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="• Berbentuk oval dengan tepi bergerigi\n• Warna hijau cerah dengan permukaan agak kasar\n• Memiliki aroma khas mentol yang menyegarkan\n• Panjang daun sekitar 2–5 cm\n• Tumbuh berpasangan pada batang yang menjalar"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <!-- Manfaat Daun Mint untuk Kulit -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <!-- Judul -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Mint untuk Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+
+                        <!-- 1. Mengatasi Gatal dan Iritasi -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Mengatasi Gatal dan Iritasi"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun mint mengandung senyawa mentol (zat alami dengan efek dingin dan menenangkan), sehingga dapat membantu mengurangi rasa gatal dan iritasi pada kulit."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- Cara Pakai -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Haluskan daun mint segar, lalu oleskan ke area kulit yang gatal atau iritasi. Diamkan selama 15 menit, kemudian bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 2. Mengatasi Kulit Kepala Berminyak -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Mengatasi Kulit Kepala Berminyak"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun mint membantu mengontrol produksi minyak berlebih di kulit kepala dan memberikan sensasi segar yang menenangkan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- Cara Pakai -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebus daun mint dengan air. Setelah air hangat, gunakan untuk membilas kulit kepala sambil dipijat lembut. Diamkan beberapa menit lalu bilas dengan air bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 3. Mengobati Jerawat -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Mengobati Jerawat"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kandungan anti-inflamasi (zat yang meredakan peradangan) dalam daun mint dapat membantu menenangkan jerawat dan mencegah jerawat baru muncul."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- Cara Pakai -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Haluskan daun mint segar, aplikasikan pada area berjerawat. Diamkan 15 menit lalu bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 4. Mengatasi Komedo -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4. Membantu Mengatasi Komedo"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun mint membantu membuka pori-pori dan membersihkan kotoran yang menyebabkan komedo di wajah."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- Cara Pakai -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbuk daun mint segar dan oleskan ke bagian wajah yang berkomedo. Diamkan selama 10–15 menit lalu bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <!-- Manfaat Daun Mint untuk Rambut -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Mint untuk Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+                        <!-- 1. Mengatasi Ketombe -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Mengatasi Ketombe"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun mint memiliki sifat anti-inflamasi (mengurangi peradangan), sehingga bisa membantu mengurangi ketombe dan menjaga kulit kepala tetap sehat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebus daun mint dengan air. Gunakan air rebusan tersebut untuk membilas rambut saat keramas. Diamkan beberapa menit lalu bilas dengan air bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 2. Mencegah Rambut Rontok -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Mencegah Rambut Rontok"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun mint mengandung mentol, yaitu senyawa alami yang memberikan sensasi dingin dan membantu melancarkan aliran darah di kulit kepala. Ini bisa memperkuat akar rambut dan mencegah kerontokan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gunakan air rebusan daun mint saat mencuci rambut. Pijat lembut kulit kepala agar aliran darah meningkat dan rambut lebih kuat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 3. Merangsang Pertumbuhan Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Merangsang Pertumbuhan Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mentol dalam daun mint membantu merangsang folikel rambut, yaitu tempat tumbuhnya rambut, sehingga rambut bisa tumbuh lebih cepat dan sehat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbuk daun mint segar hingga halus, lalu oleskan langsung ke kulit kepala. Diamkan 20 menit dan bilas hingga bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 4. Menyegarkan Kulit Kepala -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4. Menyegarkan Kulit Kepala"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun mint memberikan efek dingin dan segar di kulit kepala. Efek ini bisa membantu mengurangi rasa gatal dan membuat kepala terasa nyaman."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gunakan sampo yang mengandung ekstrak daun mint. Saat keramas, pijat kepala secara lembut dan diamkan sebentar sebelum dibilas."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <!-- 5. Membunuh Kutu Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5. Membunuh Kutu Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aroma dan kandungan alami dalam daun mint bisa membantu membunuh kutu rambut dan mencegah gatal akibat gigitan kutu."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebus daun mint, lalu gunakan airnya untuk keramas. Usapkan merata ke kulit kepala agar kutu dan telurnya bisa mati."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:lineSpacingExtra="6dp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

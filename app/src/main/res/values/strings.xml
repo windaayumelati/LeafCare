@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">LeafCare</string>
+
+    <string name="daun_kemangi">
+    Deskripsi: Daun kemangi memiliki aroma khas dan menyegarkan. Daun ini kaya akan senyawa antioksidan (zat yang melindungi sel dari kerusakan akibat radikal bebas) dan antibakteri (zat yang melawan bakteri penyebab infeksi) alami.
+        Daun kemangi banyak digunakan dalam pengobatan tradisional dan perawatan alami untuk kulit dan rambut.\n\n
+    Manfaat:
+    Manfaat Daun Kemangi untuk Kulit:\n
+    • Mencegah Blackhead (Komedo Hitam)\n
+    • Menghilangkan Jerawat\n
+    • Mencerahkan Wajah\n
+    • Mencegah Tanda Penuaan Dini\n
+    • Menghilangkan Bekas Luka dan Bekas Jerawat\n
+    • Mengobati Infeksi Kulit\n
+    • Merawat Kulit dan Menjaga Kelembapan\n\n
+    Manfaat Daun Kemangi untuk Rambut:\n
+    • Mencegah Kerontokan Rambut\n
+    • Mencegah Rambut Beruban\n
+    • Mengurangi Ketombe\n
+    • Meningkatkan Pertumbuhan Rambut
+    </string>
+
+    <string name="daun_jambu_biji">
+    Deskripsi: Daun kemangi memiliki aroma khas dan menyegarkan. Daun ini kaya akan senyawa antioksidan (zat yang melindungi sel dari kerusakan akibat radikal bebas) dan antibakteri (zat yang melawan bakteri penyebab infeksi) alami.
+        Daun kemangi banyak digunakan dalam pengobatan tradisional dan perawatan alami untuk kulit dan rambut.\n\n
+    Manfaat:
+    Manfaat Daun Jambu Biji untuk Kulit:\n
+    • Menguatkan Rambut\n
+    • Menyuburkan Pertumbuhan Rambut\n
+    • Mengurangi Kerontokan Rambut\n
+    • Mengatasi Ketombe\n
+    • Menjadikan Rambut Lebih Berkilau\n\n
+    Manfaat Daun Jambu Biji untuk Rambut:\n
+    • Menguatkan Rambut\n
+    • Menyuburkan Pertumbuhan Rambut\n
+    • Mengurangi Kerontokan Rambut\n
+    • Mengatasi Ketombe\n
+    • Menjadikan Rambut Lebih Berkilau
+    </string>
+
+    <string name="daun_kari">
+    Deskripsi: Daun kari adalah daun aromatik, artinya daun yang memiliki aroma harum dan khas, yang biasa dipakai dalam masakan Asia Selatan.
+        Selain untuk memasak, daun ini juga dikenal bermanfaat untuk kesehatan kulit dan rambut.
+        Daun kari kaya akan antioksidan, yaitu zat yang melindungi sel tubuh dari kerusakan akibat molekul berbahaya yang disebut radikal bebas.
+        Daun ini juga mengandung senyawa antibakteri, yaitu zat yang dapat membunuh atau melawan bakteri penyebab infeksi, serta nutrisi penting seperti vitamin dan mineral yang membantu menjaga kesehatan tubuh secara alami tanpa bahan kimia tambahan.\n\n
+    Manfaat:
+    Manfaat Daun Kari untuk Kulit:\n
+    • Membantu mempercepat proses regenerasi sel kulit baru\n
+    • Mengatasi jerawat\n
+    • Mengurangi kulit berjerawat\n
+    • Meredakan gejala eksim\n
+    • Melawan infeksi bakteri pada kulit\n
+    • Mengurangi iritasi ringan pada kulit\n\n
+    Manfaat Daun Kari untuk Rambut:\n
+    • Mencegah rambut rontok\n
+    • Menyuburkan rambut dan memperbaiki ujung bercabang\n
+    • Menyamarkan uban yang tumbuh lebih awal dari biasanya (prematur)
+    </string>
+
+    <string name="lidah_buaya">
+    Deskripsi: Lidah buaya adalah tanaman yang terkenal akan manfaatnya untuk kesehatan dan kecantikan.
+        Daunnya tebal dan berdaging, berisi gel bening kaya nutrisi yang memiliki sifat anti-inflamasi (mengurangi peradangan atau bengkak),
+        antibakteri (melawan bakteri penyebab infeksi), serta melembapkan secara alami, sangat efektif untuk perawatan kulit dan rambut.\n\n
+    Manfaat:
+    Manfaat Daun Lidah Buaya untuk Kulit:\n
+    • Mencegah penuaan dini dan keriput\n
+    • Melembabkan kulit\n
+    • Mengatasi jerawat dan bekasnya\n
+    • Menyembuhkan luka eksternal\n
+    • Mengurangi stretch marks\n\n
+    Manfaat Daun Lidah Buaya untuk Rambut:\n
+    • Merangsang pertumbuhan rambut\n
+    • Mengurangi ketombe\n
+    • Memperkuat rambut\n
+    • Mengontrol rambut berminyak\n
+    </string>
+
+    <string name="teh_hijau">
+    Deskripsi: Daun teh hijau berasal dari tanaman Camellia sinensis (nama ilmiah tanaman teh).
+        Karena daun ini tidak melalui proses fermentasi, kandungan zat alami seperti katekin (zat antioksidan yang melindungi sel tubuh) dan polifenol (senyawa yang membantu melawan radikal bebas) tetap terjaga dengan baik.
+        Zat-zat ini membantu menjaga kesehatan kulit, meningkatkan pembakaran lemak dalam tubuh, serta merawat kesehatan rambut.
+        Oleh karena itu, daun teh hijau sangat bermanfaat untuk kesehatan dan kecantikan.\n\n
+    Manfaat:
+    Manfaat Daun Teh Hijau untuk Kulit:\n
+    • Menenangkan kulit dan mengurangi iritasi\n
+    • Mencegah kanker kulit akibat paparan sinar UV\n
+    • Mencegah peradangan pada kondisi kulit seperti psoriasis dan dermatitis\n
+    • Membantu menghilangkan bekas luka dan bekas jerawat\n
+    • Melembapkan kulit dengan meningkatkan kelembapan alami\n\n
+    Manfaat Daun Teh Hijau untuk Rambut:\n
+    • Mencegah kerontokan rambut\n
+    • Merangsang pertumbuhan rambut yang sehat\n
+    • Meningkatkan pasokan nutrisi ke kulit kepala\n
+    • Melembutkan rambut dan memberikan kilau alami\n
+    • Meningkatkan kualitas rambut secara keseluruhan
+    </string>
+
+    <string name="daun_kunyit">
+    Deskripsi: Daun kunyit berasal dari tanaman kunyit (Curcuma longa), yang dikenal sebagai rempah-rempah dan tanaman obat.
+        Daun ini mengandung antioksidan (zat untuk melawan kerusakan sel) dan senyawa bioaktif seperti kurkumin yang dapat membantu menjaga kesehatan kulit, mengurangi peradangan ringan, dan memperkuat akar rambut secara alami.
+        Selain digunakan dalam masakan, aromanya juga menambah cita rasa pada hidangan tradisional.\n\n
+    Manfaat:
+    Manfaat Daun Kunyit untuk Kulit:\n
+    • Menjaga elastisitas dan kekenyalan kulit\n
+    • Mencegah penuaan dini seperti keriput dan garis halus\n
+    • Melindungi kulit dari kerusakan akibat radikal bebas\n\n
+    Manfaat Daun Kunyit untuk Rambut:\n
+    • Menguatkan akar rambut\n
+    • Membantu mencegah ketombe\n
+    • Membuat rambut lebih berkilau dan sehat
+    </string>
+
+    <string name="daun_sirsak">
+    Deskripsi: Daun sirsak berasal dari pohon Annona muricata, tanaman tropis yang dikenal dengan buahnya yang unik.
+        Daun ini mengandung zat aktif bernama acetogenins yang dipercaya memiliki kemampuan melawan bakteri dan virus, serta antioksidan yang membantu melindungi tubuh dari kerusakan sel.
+        Selain itu, daun sirsak juga kaya vitamin C yang mendukung sistem kekebalan tubuh.
+        Karena sifat antiinflamasi dan antimikroba tersebut, daun ini sering digunakan dalam pengobatan tradisional untuk merawat kulit, menyembuhkan infeksi, dan menjaga kesehatan rambut.\n\n
+    Manfaat:
+    Manfaat Daun Sirsak untuk Kulit:\n
+    • Mengobati bisul dengan daun muda yang dihaluskan\n
+    • Mengobati eksim dengan olesan daun yang telah dihancurkan dua kali sehari\n
+    • Mengatasi komedo dan menjaga kebersihan kulit wajah\n\n
+    Manfaat Daun Sirsak untuk Rambut:\n
+    • Mengatasi kutu rambut secara alami dan aman\n
+    • Mengurangi rambut rontok, bercabang, kasar, dan beruban
+    </string>
+
+    <string name="daun_mint">
+    Deskripsi: Daun mint (Mentha) merupakan tanaman herbal yang sering digunakan dalam masakan dan pengobatan tradisional.
+        Daun ini dikenal karena aromanya yang segar dan kandungan senyawa mentol (zat yang memberikan sensasi dingin pada kulit) yang bermanfaat bagi kesehatan dan kecantikan, seperti menyegarkan napas, menenangkan kulit, serta meredakan peradangan ringan.\n\n
+    Manfaat:
+    Manfaat Daun Mint untuk Kulit:\n
+    • Mengatasi gatal dan iritasi pada kulit secara alami\n
+    • Membantu mengontrol minyak berlebih pada kulit kepala dan wajah\n
+    • Mengobati jerawat dengan sifat antibakteri dan antiinflamasi\n
+    • Membantu mengatasi komedo dan menjaga kebersihan pori-pori\n\n
+    Manfaat Daun Mint untuk Rambut:\n
+    • Mengatasi ketombe dan menjaga kulit kepala tetap sehat\n
+    • Mencegah rambut rontok secara alami\n
+    • Merangsang pertumbuhan rambut baru dengan meningkatkan sirkulasi darah\n
+    • Menyegarkan kulit kepala dan memberikan sensasi dingin yang menenangkan\n
+    • Membantu membunuh kutu rambut tanpa bahan kimia keras\n
+    </string>
+
+    <string name="daun_pepaya">
+    Deskripsi: Daun pepaya, yang berasal dari tanaman Carica papaya, adalah daun yang tumbuh di daerah tropis dan sering digunakan dalam pengobatan tradisional.
+        Daun ini mengandung enzim papain, yaitu protein yang membantu memecah makanan dan mempercepat penyembuhan luka. Selain itu, daun pepaya juga kaya akan vitamin A dan C serta antioksidan — zat yang membantu melindungi sel tubuh dari kerusakan akibat radikal bebas.
+        Karena kandungan ini, daun pepaya bermanfaat untuk menjaga kesehatan tubuh, kulit, dan rambut secara alami.\n\n
+    Manfaat:
+    Manfaat Daun Pepaya untuk Kulit:\n
+    • Obat alami herpes, meredakan gejala herpes zoster seperti nyeri, lepuhan pada kulit, dan neuralgia.\n
+    • Mencegah keriput, membantu meningkatkan elastisitas kulit dan mengurangi garis halus dengan kandungan vitamin C dan antioksidan.\n
+    • Mencegah jerawat, mengangkat sel kulit mati dengan enzim papain dan vitamin A.\n
+    • Mempercepat penyembuhan luka, membantu menyamarkan bekas luka dengan enzim papain.\n\n
+    Manfaat Daun Pepaya untuk Rambut:\n
+    • Melebatkan rambut, mempercepat pertumbuhan rambut dan mengurangi kerontokan dengan antioksidan tinggi.\n
+    • Menghilangkan ketombe, membantu membersihkan kulit kepala dari jamur penyebab ketombe dengan sifat antijamur.\n
+    </string>
+
+    <string name="daun_sirih">
+    Deskripsi: Daun sirih, yang secara ilmiah dikenal sebagai Piper betle (nama Latin tanaman sirih), adalah tanaman herbal populer di Asia Tenggara.
+        Daun ini memiliki aroma khas yang menyegarkan dan mengandung berbagai senyawa bioaktif seperti minyak atsiri (minyak harum alami yang dapat membunuh kuman), flavonoid (zat alami yang berfungsi sebagai antioksidan, membantu melindungi tubuh dari kerusakan sel), dan tanin (zat yang membantu mengurangi peradangan dan membunuh bakteri).
+        Karena kandungan tersebut, daun sirih sering digunakan dalam pengobatan tradisional untuk menjaga kesehatan mulut, meredakan infeksi, serta merawat kecantikan kulit.\n\n
+    Manfaat:
+    Manfaat Daun Sirih untuk Kulit:\n
+    • Menutrisi kulit dengan masker daun sirih dan Multani mitti\n
+    • Mencegah jerawat berkat sifat anti-inflamasi dan antibakteri\n
+    • Mencerahkan kulit dengan mengangkat sel kulit mati\n
+    • Menghilangkan minyak berlebih dengan campuran daun sirih, madu, dan garam laut\n\n
+    Manfaat Daun Sirih untuk Rambut:\n
+    • Mengurangi rambut rontok berkat kandungan vitamin C\n
+    • Merangsang pertumbuhan rambut sehat\n
+    • Mencegah uban dini secara alami\n
+    • Digunakan dalam masker rambut kombinasi dengan minyak kelapa, minyak jarak, jahe, kembang sepatu, dan kemangi\n
+    </string>
+
+    <string name="unknown_prediction_text">
+    Maaf, gambar yang Anda unggah belum cocok dengan data daun herbal untuk kulit dan rambut. Silakan coba lagi dengan gambar lain.
+</string>
+
+</resources>

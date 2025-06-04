@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Konten Halaman di dalam ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Daun Kari -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="24dp"
+                android:elevation="6dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/kemangi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Kemangi"
+                        android:textColor="#388E3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        
+
+
+            <!-- Deskripsi Daun Kemangi -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Daun Kemangi"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi memiliki aroma khas dan menyegarkan. Daun ini kaya akan senyawa antioksidan (zat yang melindungi sel dari kerusakan akibat radikal bebas) dan antibakteri (zat yang melawan bakteri penyebab infeksi) alami. Daun kemangi banyak digunakan dalam pengobatan tradisional dan perawatan alami untuk kulit dan rambut."
+                        android:textColor="#2E4438"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppins_regular" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ciri-ciri Daun Kemangi:"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/poppins_semibold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="• Bentuk bulat telur dan meruncing di ujung\n• Permukaan halus dan tipis\n• Warna hijau cerah\n• Mengeluarkan aroma khas dan menyengat\n• Panjang sekitar 2–4 cm"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/poppins_regular" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Manfaat Daun Kemangi untuk Kulit -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Manfaat dan Cara Penggunaan Daun Kemangi untuk Kulit"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#757575"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- 1. Mencegah Komedo Hitam -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Mencegah Komedo Hitam"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Komedo hitam adalah bintik gelap kecil di kulit yang muncul karena pori-pori tersumbat oleh minyak dan sel kulit mati. Daun kemangi membantu membersihkan pori-pori dan mengurangi kemunculannya."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tempelkan beberapa lembar daun kemangi yang sudah dibasahi ke area wajah. Diamkan 10–15 menit, lalu bilas dengan air dingin."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 2. Mengatasi Jerawat -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Mengatasi Jerawat"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi mengandung zat antibakteri (pembunuh bakteri) dan antiinflamasi (pengurang peradangan), sehingga membantu melawan penyebab jerawat dan meredakan kulit kemerahan."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tumbuk daun kemangi dan campurkan dengan sedikit bubuk kunyit atau daun mimba (neem, tanaman herbal India). Oleskan ke wajah, biarkan kering, lalu bilas bersih."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 3. Mencerahkan Kulit -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Mencerahkan Kulit"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi kaya akan antioksidan, yaitu zat yang melindungi kulit dari kerusakan akibat radikal bebas. Ini membantu kulit terlihat lebih cerah dan segar."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gunakan air rebusan daun kemangi sebagai toner alami atau semprotkan ke wajah setelah didinginkan."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 4. Mengurangi Tanda Penuaan -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Mengurangi Tanda Penuaan"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Flavonoid dalam daun kemangi adalah senyawa alami yang memperlambat munculnya garis halus dan kerutan, serta menjaga elastisitas kulit."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Campurkan daun kemangi yang ditumbuk dengan sedikit madu. Oleskan ke wajah, diamkan selama 15 menit, lalu bilas."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 5. Mengurangi Bekas Luka -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Mengurangi Bekas Luka"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi mendorong pembentukan sel kulit baru, membantu menyamarkan bekas jerawat atau noda hitam secara alami."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buat masker dari daun kemangi yang ditumbuk dan tambahkan gel lidah buaya. Gunakan pada area bekas luka selama 10–15 menit."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 6. Mengatasi Infeksi Kulit -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Mengatasi Infeksi Kulit"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sifat antimikroba (melawan mikroba) dan antiseptik (mencegah infeksi) dalam daun kemangi membantu meredakan ruam, gatal, atau iritasi ringan pada kulit."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oleskan air rebusan daun kemangi yang sudah dingin ke area kulit yang teriritasi, dua kali sehari."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 7. Melembapkan Kulit -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. Melembapkan Kulit"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi membantu menjaga kadar air pada kulit sehingga kulit tetap lembap, terutama bagi kulit kering dan sensitif."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Campurkan daun kemangi dengan minyak kelapa atau minyak zaitun, oleskan ke wajah sebagai pelembap alami sebelum tidur."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!-- Manfaat Daun Kemangi untuk Rambut -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Manfaat dan Cara Penggunaan Daun Kemangi untuk Rambut"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#757575"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- 1. Mencegah Kerontokan Rambut -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Mencegah Kerontokan Rambut"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi kaya akan vitamin A dan vitamin C yang membantu memperkuat akar rambut dan menjaga kesehatan kulit kepala, sehingga dapat mencegah rambut rontok."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tumbuk daun kemangi hingga halus, oleskan pada kulit kepala dan pijat lembut. Diamkan selama 30 menit, lalu bilas hingga bersih."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 2. Mencegah Rambut Beruban -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Mencegah Rambut Beruban"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Antioksidan (zat pelindung sel dari kerusakan) dalam daun kemangi membantu menjaga produksi melanin, yaitu pigmen alami rambut. Melanin yang cukup membuat rambut tetap berwarna hitam alami dan mencegah uban muncul lebih cepat."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gunakan air rebusan daun kemangi untuk membilas rambut setelah keramas secara rutin, minimal 2–3 kali seminggu."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 3. Mengurangi Ketombe -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Mengurangi Ketombe"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kemangi memiliki sifat antijamur (menghambat pertumbuhan jamur) dan antibakteri (melawan bakteri), sehingga efektif untuk mengurangi ketombe dan menjaga kulit kepala tetap bersih."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Campurkan daun kemangi yang sudah ditumbuk dengan sedikit air perasan lemon. Oleskan ke kulit kepala, diamkan 20 menit, lalu bilas hingga bersih."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <!-- 4. Meningkatkan Pertumbuhan Rambut -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Meningkatkan Pertumbuhan Rambut"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Zat aktif dalam daun kemangi dapat meningkatkan sirkulasi darah di kulit kepala. Aliran darah yang lancar membuat folikel rambut (akar rambut) lebih sehat dan merangsang pertumbuhan rambut baru."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Penggunaan:"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rendam daun kemangi dalam air panas selama 10–15 menit. Gunakan airnya untuk membilas rambut setelah keramas secara rutin."
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

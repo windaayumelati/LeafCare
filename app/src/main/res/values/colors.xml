@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green_primary">#4CAF50</color> <!-- hijau utama -->
+    <color name="green_primary_light">#66BB6A</color> <!-- hijau yang lebih terang -->
+
+    <color name="leafcare_main">#B6D1B5</color>
+    <color name="green_mixed">#7AAA6E</color>
+
+    <color name="green_mixed_fresh">#43A047</color>
+
+</resources>

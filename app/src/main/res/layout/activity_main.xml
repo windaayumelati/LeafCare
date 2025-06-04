@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Icon Informasi di pojok kanan atas -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/menuInformasi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/info2"
+                android:contentDescription="Informasi Aplikasi"
+                android:background="?android:attr/selectableItemBackground"
+                android:elevation="4dp"
+                android:layout_marginTop="-5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerInside"
+                android:padding="8dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:src="@drawable/daun6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="12dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:elevation="0dp" />
+
+
+        <TextView
+            android:text="Selamat datang di LeafCare 🌿"
+            android:textSize="28sp"
+            android:textStyle="normal"
+            android:fontFamily="@font/luckiest_guy"
+            android:textColor="#2E7D32"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:letterSpacing="0.05"
+            android:shadowColor="#88000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_panel_background"
+            android:elevation="1dp"
+            android:padding="20dp"
+
+            android:layout_marginBottom="28dp">
+
+            <TextView
+                android:text="Temukan manfaat daun herbal alami untuk kulit dan rambut sehat. Deteksi otomatis dan informasi lengkap hanya di LeafCare."
+                android:textSize="13sp"
+                android:textColor="#2E4438"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="6dp"
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginBottom="24dp" />
+
+            <LinearLayout
+                android:id="@+id/menuPrediksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_card_soft"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="1dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:src="@drawable/scanner1"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/rounded_circle_white"
+                    android:elevation="2dp"
+                    android:padding="8dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Deteksi Daun Herbal"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="#1B2D22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="Gunakan kamera atau galeri untuk deteksi otomatis daun herbal."
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#445C50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menuKlasifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_card_soft"
+                android:padding="16dp"
+                android:elevation="1dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:src="@drawable/daun1"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/rounded_circle_white"
+                    android:elevation="2dp"
+                    android:padding="8dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Daftar Daun Herbal"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="#1B2D22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="Informasi lengkap daun herbal dan manfaatnya untuk kulit dan rambut."
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#445C50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

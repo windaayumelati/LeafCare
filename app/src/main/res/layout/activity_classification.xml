@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Konten Halaman di dalam ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:layout_marginBottom="24dp">
+
+            <!-- CardView 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jambu" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Jambu Biji"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kari" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Kari"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 3 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kemangi" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Kemangi"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 4 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kunyit" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Kunyit"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 5 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mint" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Mint"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 6 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pepaya" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Pepaya"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 7 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sirih" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Sirih"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 8 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sirsak" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Sirsak"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 9 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lidahbuaya" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lidah Buaya"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 10 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_daun10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tehhijau" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Teh Hijau"
+                        android:textColor="#388E3C"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

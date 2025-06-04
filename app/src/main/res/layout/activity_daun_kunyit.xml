@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Konten Halaman di dalam ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <!-- Daun Kunyit -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="24dp"
+                android:elevation="6dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/kunyit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Kunyit"
+                        android:textColor="#388E3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!-- Deskripsi Daun Kunyit -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Judul Deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Daun Kunyit"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/poppins_bold" />
+
+                    <!-- Isi Deskripsi -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daun kunyit berasal dari tanaman kunyit (Curcuma longa), yang dikenal sebagai rempah-rempah dapur dan juga sebagai tanaman obat. Daun ini mengandung antioksidan (zat penangkal radikal bebas) dan senyawa bioaktif seperti kurkumin yang bermanfaat untuk kesehatan. Daun kunyit sering digunakan untuk membantu menjaga kesehatan kulit, meredakan peradangan ringan, serta memperkuat akar rambut secara alami. Aromanya yang khas juga sering dimanfaatkan dalam masakan tradisional."
+                        android:textColor="#2E4438"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Judul Ciri-ciri -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ciri-ciri Daun Kunyit:"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <!-- Isi Ciri-ciri -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="• Bentuk lonjong dan meruncing di ujung\n• Warna hijau tua dengan urat daun yang jelas\n• Memiliki aroma khas dan tajam\n• Tumbuh subur di tanah yang lembab dan gembur\n• Ukuran daun biasanya sekitar 20–45 cm tergantung usia tanaman"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!-- Manfaat Daun Kunyit untuk Kulit -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Kunyit untuk Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+                        <!-- Menjaga elastisitas kulit -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Menjaga elastisitas kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kandungan antioksidan (zat yang melawan kerusakan sel akibat oksidasi) dalam daun kunyit membantu menjaga elastisitas kulit dan melindungi dari radikal bebas (zat berbahaya yang merusak sel kulit)."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbuk daun kunyit, oleskan pada kulit wajah atau tubuh, diamkan 15–20 menit, lalu bilas bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <!-- Mencegah penuaan dini -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Mencegah penuaan dini"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun kunyit membantu mengurangi keriput dan garis halus pada wajah. Kandungannya mendukung regenerasi sel (proses pergantian sel kulit lama dengan yang baru) agar kulit tetap tampak muda."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Haluskan daun kunyit, oleskan pada area yang menunjukkan tanda penuaan, diamkan 20 menit, lalu bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <!-- Melindungi dari radikal bebas -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Melindungi dari radikal bebas"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Antioksidan dalam daun kunyit efektif melawan radikal bebas, yaitu molekul yang bisa merusak sel kulit dan mempercepat penuaan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbuk daun kunyit, oleskan pada wajah, diamkan selama 15 menit, lalu bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+                <!-- Manfaat Daun Kunyit untuk Rambut -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Kunyit untuk Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+
+                        <!-- Memperkuat akar rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Memperkuat akar rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kandungan antioksidan (zat yang melindungi sel dari kerusakan oksidatif) dalam daun kunyit membantu memperkuat akar rambut dan mengurangi kerontokan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Haluskan daun kunyit dan aplikasikan pada kulit kepala. Pijat lembut selama beberapa menit, diamkan 15–20 menit, lalu bilas dengan air bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <!-- Mencegah ketombe -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Mencegah ketombe"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kandungan antimikroba (zat yang membunuh atau menghambat pertumbuhan mikroorganisme) pada daun kunyit membantu membersihkan kulit kepala dari kotoran dan mikroba penyebab ketombe."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbuk daun kunyit hingga halus dan aplikasikan pada kulit kepala yang berketombe. Diamkan selama 15–20 menit, lalu bilas dengan air hangat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <!-- Membuat rambut lebih berkilau -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Membuat rambut lebih berkilau"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun kunyit mengandung nutrisi yang dapat meningkatkan kesehatan rambut, sehingga rambut tampak lebih berkilau dan sehat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebus beberapa lembar daun kunyit, biarkan air rebusan hangat, lalu gunakan untuk membilas rambut setelah keramas. Gunakan secara rutin untuk hasil maksimal."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

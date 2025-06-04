@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Konten Halaman di dalam ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="24dp"
+                android:elevation="6dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sirsak" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Sirsak"
+                        android:textColor="#388E3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Judul Deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Daun Sirsak"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/poppins_bold" />
+
+                    <!-- Isi Deskripsi -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daun sirsak berasal dari pohon Annona muricata, tanaman tropis yang dikenal dengan buahnya yang unik. Daun ini mengandung zat aktif bernama acetogenins yang dipercaya memiliki kemampuan melawan bakteri dan virus, serta antioksidan yang membantu melindungi tubuh dari kerusakan sel. Selain itu, daun sirsak juga kaya vitamin C yang mendukung sistem kekebalan tubuh. Karena sifat antiinflamasi dan antimikroba tersebut, daun ini sering digunakan dalam pengobatan tradisional untuk merawat kulit, menyembuhkan infeksi, dan menjaga kesehatan rambut."
+                        android:textColor="#2E4438"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Judul Ciri-ciri -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ciri-ciri Daun Sirsak:"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <!-- Isi Ciri-ciri -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="• Bentuk lonjong dengan ujung meruncing\n• Permukaan daun licin dan mengkilap\n• Warna hijau tua saat daun dewasa, hijau muda saat muda\n• Panjang 6–18 cm per helai daun\n• Daun tumbuh berselang-seling pada batang pohon"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+                <!-- Manfaat Daun Sirsak untuk Kulit -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Sirsak untuk Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+
+                        <!-- Mengobati Bisul -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Mengobati Bisul"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun sirsak muda yang dihaluskan dapat digunakan sebagai obat alami untuk menyembuhkan bisul (infeksi kulit yang menyebabkan benjolan bernanah) yang menimbulkan rasa nyeri dan risiko infeksi lebih lanjut."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Haluskan daun sirsak muda dan oleskan langsung ke area bisul. Biarkan selama 20 menit lalu bilas dengan air bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- Mengobati Eksim -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Mengobati Eksim"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Oleskan daun sirsak yang telah dihancurkan pada area yang terkena eksim (peradangan kulit yang menyebabkan kemerahan, gatal, dan iritasi) dua kali sehari untuk membantu mengurangi rasa sakit dan mempercepat penyembuhan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gunakan daun sirsak yang dihancurkan dan tempelkan pada area eksim selama 15–20 menit. Bilas dengan air hangat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- Mengatasi Komedo -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Mengatasi Komedo"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun sirsak segar yang dihaluskan dapat diaplikasikan langsung ke kulit untuk membantu mencegah dan mengurangi komedo (penumpukan minyak dan kotoran di pori-pori kulit) serta menjaga kebersihan kulit wajah."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumbuk daun sirsak segar dan balurkan ke area wajah yang berkomedo. Diamkan selama 15 menit, lalu bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <!-- Manfaat Daun Sirsak untuk Rambut -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Sirsak untuk Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+
+                        <!-- Mengatasi Kutu Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Mengatasi Kutu Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun sirsak memiliki kandungan senyawa aktif seperti acetogenins (zat alami yang dipercaya dapat membunuh serangga) yang mampu membasmi kutu rambut secara alami tanpa menimbulkan efek samping berbahaya pada kulit kepala."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebus beberapa lembar daun sirsak dan gunakan air rebusannya untuk membilas rambut secara menyeluruh. Diamkan selama 30 menit lalu bilas dengan air bersih. Ulangi 2-3 kali seminggu."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- Mengatasi Masalah Rambut Umum -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Mengatasi Masalah Rambut Umum"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kandungan vitamin C dan antioksidan (zat yang melindungi sel dari kerusakan) dalam daun sirsak bermanfaat untuk mencegah kerontokan, mengurangi rambut bercabang, menghaluskan rambut kasar, dan menghambat pertumbuhan uban."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Haluskan daun sirsak segar dan campurkan dengan sedikit air hingga menjadi pasta. Oleskan pada kulit kepala dan rambut, diamkan selama 30 menit, lalu bilas hingga bersih dengan sampo ringan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

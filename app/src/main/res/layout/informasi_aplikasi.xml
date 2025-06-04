@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFFFF"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Gambar Ikon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/info1"
+                    android:layout_marginBottom="16dp"
+                    android:contentDescription="Gambar Info"
+                    android:scaleType="centerInside" />
+
+                <!-- Divider Hiasan -->
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="#A5D6A7" />
+            </LinearLayout>
+
+            <!-- Panel Informasi -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_panel_background"
+                android:elevation="3dp"
+                android:padding="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="start">
+
+                <!-- Judul Deskripsi -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1C2B20"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Isi Deskripsi -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplikasi ini dirancang untuk membantu pengguna mengenali berbagai jenis tanaman herbal yang bermanfaat untuk kesehatan kulit dan rambut. Deteksi daun dilakukan menggunakan model Convolutional Neural Network (CNN) dengan arsitektur InceptionV3, yang telah dilatih untuk mengidentifikasi jenis daun dari citra gambar."
+                    android:textSize="14sp"
+                    android:textColor="#2B3A2C"
+                    android:fontFamily="@font/poppins_regular"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_marginBottom="18dp"
+                    android:gravity="start"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp" />
+
+
+                <!-- Divider untuk memisahkan -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC"
+                    android:layout_marginBottom="18dp" />
+
+                <!-- Judul Informasi -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitur Utama"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1C2B20"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginBottom="10dp" />
+
+                <!-- List Fitur -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Terdapat 10 jenis daun herbal yang bisa dikenali.\n\n• Aplikasi dapat digunakan tanpa koneksi internet (offline).\n\n• Deteksi otomatis daun menggunakan kamera langsung atau dari galeri.\n\n• Setiap daun dilengkapi dengan informasi lengkap untuk kulit dan rambut.\n\n• Tersedia menu Daftar Daun yang menampilkan semua daun secara otomatis."
+                    android:textSize="14sp"
+                    android:textColor="#2B3A2C"
+                    android:lineSpacingExtra="6dp"
+                    android:fontFamily="@font/poppins_regular" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Reusable Toolbar (ditempatkan di luar ScrollView) -->
+    <include layout="@layout/toolbar_layout" />
+
+    <!-- Konten Halaman di dalam ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="24dp"
+                android:elevation="6dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tehhijau" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daun Teh Hijau"
+                        android:textColor="#388E3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="6dp"
+                app:cardCornerRadius="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Judul Deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Daun Teh Hijau"
+                        android:textColor="#2E4438"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_bold" />
+
+                    <!-- Isi Deskripsi -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daun teh hijau berasal dari tanaman Camellia sinensis (nama ilmiah tanaman teh). Karena daun ini tidak melalui proses fermentasi, kandungan zat alami seperti katekin (zat antioksidan yang melindungi sel tubuh) dan polifenol (senyawa yang membantu melawan radikal bebas) tetap terjaga dengan baik. Zat-zat ini membantu menjaga kesehatan kulit, meningkatkan pembakaran lemak dalam tubuh, serta merawat kesehatan rambut. Oleh karena itu, daun teh hijau sangat bermanfaat untuk kesehatan dan kecantikan."
+                        android:textColor="#2E4438"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Judul Ciri-ciri -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ciri-ciri Daun Teh Hijau:"
+                        android:textColor="#2E4438"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginTop="16dp" />
+
+                    <!-- Isi Ciri-ciri -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="• Bentuk daun lonjong atau memanjang\n• Tepi daun agak bergerigi halus\n• Warna daun hijau terang hingga hijau tua\n• Permukaan daun halus dan mengkilap\n• Ukuran daun bervariasi, umumnya antara 4–8 cm panjangnya"
+                        android:textColor="#2E4438"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!-- Manfaat Daun Teh Hijau untuk Kulit -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Teh Hijau untuk Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+
+                        <!-- Meredakan Peradangan Kulit -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Meredakan Peradangan Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sifat anti-inflamasi (kemampuan mengurangi peradangan atau pembengkakan) teh hijau dapat membantu mengurangi iritasi kulit, kemerahan, dan pembengkakan."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ambil daun teh hijau, rebus dalam air panas selama 10-15 menit, lalu diamkan hingga suhu yang nyaman. Gunakan air rebusan untuk mencuci wajah atau aplikasikan pada kulit yang iritasi menggunakan kapas."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+
+                        <!-- Cegah Kanker Kulit -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Cegah Kanker Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Antioksidan (zat yang melindungi sel dari kerusakan akibat radikal bebas) dalam teh hijau, seperti polifenol dan katekin (senyawa alami yang kuat sebagai antioksidan), dapat membantu mencegah kanker kulit akibat paparan sinar UV matahari."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun teh hijau dapat diseduh dan digunakan sebagai masker wajah. Gunakan daun yang sudah diperas untuk menutupi area kulit yang terpapar sinar matahari selama beberapa menit."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- Cegah Peradangan -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Cegah Peradangan"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh hijau yang diterapkan langsung pada kulit dapat membantu mengatasi kondisi kulit yang meradang, seperti psoriasis, dermatitis, dan rosacea (penyakit kulit yang menyebabkan kemerahan dan iritasi)."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ambil daun teh hijau, tumbuk hingga halus, lalu aplikasikan pada area yang meradang. Diamkan selama 15-20 menit, kemudian bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- Bantu Hilangkan Bekas Luka -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4. Bantu Hilangkan Bekas Luka"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh hijau dapat menenangkan luka kecil dan luka bakar akibat sinar matahari. Ekstraknya membantu mengurangi kemerahan dan gangguan pada bekas luka sehingga kulit lebih cepat pulih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rebus daun teh hijau dalam air, lalu celupkan kain bersih dalam air teh hijau yang sudah dingin dan aplikasikan pada bekas luka atau bekas jerawat. Diamkan selama 15 menit sebelum membilasnya."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- Lembapkan Kulit -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5. Lembapkan Kulit"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh hijau membantu melembapkan kulit dengan menghidrasi dan menjaga kelembapan alami. Kandungan vitamin E (antioksidan yang menjaga kesehatan kulit) di dalamnya membantu mengurangi kekasaran kulit dan membuatnya terasa lebih halus."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Daun teh hijau dapat diperas dan dioleskan langsung ke kulit wajah atau tubuh, memberikan kelembapan alami. Biarkan selama 10-15 menit, kemudian bilas dengan air dingin."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+                <!-- Manfaat Daun Teh Hijau untuk Rambut -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:elevation="6dp"
+                    app:cardCornerRadius="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manfaat dan Cara Penggunaan Daun Teh Hijau untuk Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#757575"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="12dp" />
+
+
+                        <!-- 1. Cegah Kerontokan Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Cegah Kerontokan Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EGCG adalah senyawa antioksidan dalam teh hijau yang dapat menghambat hormon DHT (dihidrotestosteron, hormon yang menyebabkan rambut mudah rontok), sehingga membantu memperlambat proses kerontokan rambut."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gunakan air rebusan teh hijau yang telah didinginkan untuk membilas rambut setelah keramas. Ulangi 2–3 kali seminggu."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- 2. Dukung Pertumbuhan Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Dukung Pertumbuhan Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh hijau merangsang folikel rambut (bagian akar rambut tempat rambut tumbuh), serta mencegah kerusakan pada kulit kepala agar pertumbuhan rambut tetap sehat."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Oleskan ekstrak teh hijau atau air teh hijau pada kulit kepala, diamkan selama 15 menit sebelum dibilas bersih."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- 3. Dukung Penyaluran Nutrisi -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Dukung Penyaluran Nutrisi"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh hijau meningkatkan pasokan oksigen dan nutrisi ke kulit kepala (lapisan kulit di bawah rambut yang penting untuk kesehatan rambut), sehingga rambut tumbuh lebih baik."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gunakan teh hijau sebagai bahan campuran masker rambut alami bersama minyak zaitun atau madu, lalu aplikasikan ke kulit kepala."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- 4. Lembutkan Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4. Lembutkan Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kandungan polifenol (zat antioksidan alami) dan vitamin C serta E dalam teh hijau membantu melembutkan rambut dan memberikan kilau alami."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Setelah keramas, bilas rambut dengan teh hijau dingin lalu biarkan selama beberapa menit sebelum membilas dengan air biasa."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <!-- 5. Meningkatkan Kualitas Rambut -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5. Meningkatkan Kualitas Rambut"
+                            android:textColor="#2E4438"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="16dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Teh hijau tidak hanya merangsang pertumbuhan rambut, tetapi juga meningkatkan kesehatan rambut secara keseluruhan, menjadikannya lebih kuat dan bercahaya."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara Penggunaan:"
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginTop="12dp"
+                            android:gravity="start" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gunakan teh hijau secara rutin sebagai bilasan akhir rambut setelah keramas untuk hasil rambut yang lebih sehat dan berkilau."
+                            android:textColor="#2E4438"
+                            android:textSize="14sp"
+                            android:lineSpacingExtra="6dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4DE2E9DD"/> <!-- Warna latar lebih soft -->
+    <corners android:radius="24dp"/>
+    <stroke android:width="1dp" android:color="#D0C9D9C2"/> <!-- Warna garis lebih kalem -->
+</shape>
